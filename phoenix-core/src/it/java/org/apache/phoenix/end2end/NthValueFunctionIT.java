@@ -15,13 +15,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.phoenix.util.csv;
+package org.apache.phoenix.end2end;
 
 import static org.junit.Assert.*;
 import java.sql.*;
 import java.util.ArrayList;
 import static org.apache.hadoop.hbase.util.VersionInfo.getUrl;
-import org.apache.phoenix.end2end.BaseHBaseManagedTimeIT;
 import org.junit.Test;
 
 public class NthValueFunctionIT extends BaseHBaseManagedTimeIT {
